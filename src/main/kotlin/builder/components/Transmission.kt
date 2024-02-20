@@ -1,4 +1,5 @@
 package builder.components
 
-enum class Transmitions {
+enum class Transmission {
+    MANUAL, AUTOMATIC, AUTOMATIC_SEQUENTIAL
 }
