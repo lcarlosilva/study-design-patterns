@@ -1,4 +1,9 @@
 package adapter.mercado_pago
 
-interface MercadoPago {
+import adapter.utils.Token
+
+interface IMercadoPago {
+    fun authToken(): Token
+    fun sendPayment()
+    fun receivePayment()
 }
